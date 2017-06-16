@@ -1,3 +1,4 @@
- let sayHi = document.createElement('h1')
- sayHi.innerText='Hello world!'
- document.body.appendChild(sayHi)
+require(['jquery'],function($){
+    $("<h1>hello world</h1>").appendTo("body")
+})
+ 
